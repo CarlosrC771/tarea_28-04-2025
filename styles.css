@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(238, 235, 231);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.mrd-container{
+    justify-content: center;
+    margin: 0px 450px 0 450px; 
+}
+
+button {
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s, transform 0.2s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el cursor */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+button:active {
+    background-color: #003f7f; /* Color más oscuro al hacer clic */
+    transform: scale(0.95); /* Reduce ligeramente el tamaño */
+}
+
+.mrd-image{
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Limitar el ancho máximo de la imagen */
+    margin: 20px auto; /* Centrar la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
